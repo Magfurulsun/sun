@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "lato r";
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: lato r;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+body {
+  background-color: gray;
+}
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 35px;
+}
+.header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.header .logo {
+  width: 60%;
+  float: left;
+}
+.header .search {
+  width: 40%;
+  float: left;
+  margin-top: 8px;
+}
+.header .search:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.header .search input {
+  padding: 10px 8px;
+  background-color: #f3f3f3;
+  border: 1px solid #dedede;
+  font-size: 20px;
+  border-radius: 5px 0px 0px 5px;
+  box-sizing: border-box;
+  width: 75%;
+  float: left;
+}
+.header .search button {
+  padding: 12px 12px;
+  background-color: #f38944;
+  border: 1px solid #f38944;
+  font-size: 20px;
+  color: white;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+}
+.main-menu {
+  background-color: #303030;
+}
+.main-menu:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-menu .menu-1 {
+  width: 80%;
+  float: left;
+}
+.main-menu .menu-2 {
+  width: 20%;
+  float: left;
+}
+.main-menu .menu-1 ul li {
+  display: inline-block;
+}
+.main-menu .menu-1 ul li a {
+  color: white;
+  padding: 10px 10px;
+  font-weight: 900;
+  display: inline-block;
+}
+.main-menu .menu-1 ul li:hover a {
+  background-color: #fff;
+  color: #303030;
+  cursor: pointer;
+}
+.main-menu .menu-2 ul li {
+  display: inline-block;
+}
+.main-menu .menu-2 ul li a {
+  color: white;
+  padding: 10px 10px;
+  font-weight: 900;
+  display: inline-block;
+}
+.main-menu .menu-2 ul {
+  text-align: right;
+}
+.main-menu .menu-2 ul li:hover a {
+  background-color: #fff;
+  color: #303030;
+  cursor: pointer;
+}
